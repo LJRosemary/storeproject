@@ -3,7 +3,7 @@ from store.views import *
 
 urlpatterns = [
     url(r'^$', index, name='index'),
-    url(r'^index/$', index, name= 'index')
+    url(r'^index/$', index, name= 'index'),
     url(r'^products/$', products, name='products'),
     url(r'^tags/$', tags, name='tags'),
     url(r'^detail/$', detail, name='detail'),
