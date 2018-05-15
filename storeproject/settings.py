@@ -97,7 +97,7 @@ else:
             'ENGINE': 'django.db.backends.mysql',
             'NAME': 'storedb',
             'USER': 'root',
-            'PASSWORD': 'wh12249281',
+            'PASSWORD': 'root',
             'HOST': '',
             'PORT': '',
         }
