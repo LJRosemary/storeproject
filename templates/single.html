@@ -1,11 +1,11 @@
-{% extends 'base.html' %}
+<!--{% extends 'base.html' %}
 {% load staticfiles %}
-{% block content_block %}
+{% block content_block %}-->
 <div class="single">
 
 <div class="container">
 <div class="col-md-9">
-	<div class="col-md-5 grid">		
+	<div class="col-md-5 grid">
 		<div class="flexslider">
 			  <ul class="slides">
 			    <li data-thumb="{{ MEDIA_URL }}{{ clo.image_url_l }}">
@@ -16,10 +16,10 @@
 			    </li>
 			    <li data-thumb="{{ MEDIA_URL }}{{ clo.image_url_r }}">
 			       <div class="thumb-image"> <img src="{{ MEDIA_URL }}{{ clo.image_url_r }}" data-imagezoom="true" class="img-responsive"> </div>
-			    </li> 
+			    </li>
 			  </ul>
 		</div>
-	</div>	
+	</div>
 <div class="col-md-7 single-top-in">
 						<div class="single-para simpleCart_shelfItem">
 							<h1>{{ clo.name }}</h1>
@@ -40,7 +40,7 @@
 							<div class="available">
 								<h6>尺寸</h6>
 								<ul>
-									
+
 								<li>Size:<select>
                                     {% for s in clo.size.all %}
 									<option>{{ s.name }}</option>
@@ -88,7 +88,7 @@
 							            $(this).next().stop(true,true).slideUp('normal');
 							        }
 							    });
-							
+
 							});
 						</script>
 						<!-- FlexSlider -->
@@ -121,7 +121,7 @@ $(window).load(function() {
 							removalDelay: 300,
 							mainClass: 'my-mfp-zoom-in'
 						});
-																						
+
 						});
 				</script>
 {% endblock %}
