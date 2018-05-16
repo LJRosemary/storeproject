@@ -3,13 +3,13 @@
     src:url(../fonts/微软雅黑.ttf) format('truetype');
 }
 @font-face {
-    font-family: 'Roboto-Regular';
-    src:url(../fonts/Roboto-Regular.ttf) format('truetype');
+    font-family: '微软雅黑';
+    src:url(../fonts/微软雅黑.ttf) format('truetype');
 }
 html,body{
 	background:#F0FFF0;
 	font-size: 100%;
-	font-family: '微软雅黑 ';
+	font-family: '微软雅黑';
 }
 body a{
 	transition: 0.5s all;
@@ -24,16 +24,14 @@ body a{
 }
 h1,h2,h3,h4,h5,h6,label,p{
 	margin:0;
-  font-family: "微软雅黑";
 }
 /*----*/
 .header-top{
-	border-bottom: 1px solid #E0E0E0;
+	border-bottom: 1px solid #eee;
 	padding: 15px 0;
 }
 .header-left{
-	margin-top: 1px;
-  text-align:center
+	margin-top: 4px;
 }
 .header-left ul li{
 	display: inline-block;
@@ -117,13 +115,11 @@ p.log{
 	width: 50%;
 	margin-top: 4%;
 }
-p.log a,span{
+p.log a{
 	color:#006666;
-  font-size: 20px;
 	text-decoration:none;
 	margin: 0 5%;
 	display: inline-block;
-  font-family:微软雅黑;
 }
 p.log a:hover{
 	color:#000;
@@ -178,14 +174,10 @@ a.item_add {
 }
 .box_1 h3 img{
 	margin-left: 5px;
-  width: 25%;
 }
 .box_1 p a{
-  color: #888888;
-  font-size: 0.85em;
-  position:relative;
-  top:-25px;
-  left:3px;
+  color: #B5B3B3;
+  font-size: 0.77em;
 }
 .total {
   display: inline-block;
@@ -193,9 +185,6 @@ a.item_add {
 .cart.box_1{
 	float: right;
 	margin-top: 2px;
-  position:relative;
-  top:20px;
-  left:-40px;
 }
 /*--- slider-css --*/
 .slider {
@@ -265,7 +254,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 }
 /*--content--*/
 .content-top h1{
-	color:#006666;
+	color:#000;
 	font-size: 3em;
 	font-family: '微软雅黑';
 	text-align: center;
@@ -293,7 +282,7 @@ ul.callbacks_tabs.callbacks1_tabs {
 	margin-top: 3px;
 }
 .price a {
-  color: #FFF;
+    color: #FFF;
   font-size: 0.9em;
   display: block;
   float: right;
@@ -301,7 +290,6 @@ ul.callbacks_tabs.callbacks1_tabs {
   padding: 0.3em 0.6em;
   border-radius: 3px;
   text-decoration: none;
-  font-family: "微软雅黑";
 }
 .content-top {
   padding: 4em 0;
@@ -365,6 +353,9 @@ ul.callbacks_tabs.callbacks1_tabs {
 .top-footer1 input[type="submit"]:hover {
   background-color:#006666;
 }
+.footer {
+  border-top: 1px solid #BDBDBD;
+}
 .footer-top {
   padding: 3em 0 ;
 }
@@ -407,16 +398,8 @@ p.footer-class {
   color:  #B2B2B2;
   margin: 2em 0 0;
   text-align:center;
-  font-family:微软雅黑;
 }
-p.footer-class1 {
-  font-size: 1em;
-  color:  #B2B2B2;
-  margin: 1em 0 0;
-  text-align:center;
-  font-family:微软雅黑;
-}
-p.footer-class1 a{
+p.footer-class a{
   text-decoration:none;
   color: #006666;
 }
@@ -424,7 +407,8 @@ p.footer-class a:hover{
   color:  #B2B2B2;
 }
 .footer-bottom {
-	padding: 4em 0 3em 0;
+	padding: 4em 0;
+	border-top: 1px solid #BDBDBD;
 }
 /*--//footer--*/
 /*-- contact --*/
@@ -529,7 +513,7 @@ p.footer-class a:hover{
 /*--//contact--*/
 /*--login--*/
 .account h1 {
-	color:#006666;
+	color:#000;
 	font-size: 3em;
 	margin:0 0 1em;
 	font-family: '微软雅黑';
@@ -547,7 +531,6 @@ p.footer-class a:hover{
 	margin: 1em 0 1.5em 0;
 	line-height: 1.8em;
 	width: 95%;
-	font-family: '微软雅黑';
 }
 .acount-btn {
 	background:#006666;
@@ -560,7 +543,6 @@ p.footer-class a:hover{
 	-o-transition: 0.5s all;
 	display: inline-block;
 	text-transform: uppercase;
-  font-family: '微软雅黑';
 }
 .acount-btn:hover, .login-right input[type="submit"]:hover{
 	background:#000;
@@ -572,7 +554,7 @@ p.footer-class a:hover{
 }
 .login-right span {
 	color: #b2b2b2;
-	font-size:1.0em;
+	font-size:0.9em;
 	padding-bottom: 0.4em;
 	display: block;
 }
@@ -600,7 +582,6 @@ p.footer-class a:hover{
 	text-transform: uppercase;
 	border:none;
 	outline:none;
-  font-family: '微软雅黑';
 }
 a.forgot {
 	font-size: 0.8125em;
@@ -611,18 +592,17 @@ a.forgot {
 }
 /*--register--*/
 .register h1 {
-	color:#006666;
+	color:#000;
 	font-size:3em;
 	margin:0 0 1em;
-	font-family: '微软雅黑';
-	text-align: center;
+	  font-family: '微软雅黑';
+	  text-align: center;
 }
 .register-top-grid span, .register-bottom-grid span {
 	color:#b2b2b2;
-	font-size: 1.0em;
+	font-size: 0.9em;
 	padding-bottom: 0.2em;
 	display: block;
-  font-family: '微软雅黑';
 }
 .register-top-grid input[type="text"], .register-bottom-grid input[type="password"] {
 	border: 1px solid #EEE;
@@ -725,7 +705,7 @@ a.forgot {
 }
 /*--product--*/
 .products h1{
-	color:#006666;
+	color:#000;
 	font-size: 3em;
 	font-family: '微软雅黑';
 	text-align: center;
@@ -805,7 +785,6 @@ span.price-in1 {
   padding: 0.3em 0 0;
   display: block;
   color:#006666;
-  font-family: '微软雅黑';
 }
 .product-go {
   padding: 1em 0;
@@ -856,7 +835,6 @@ label.add-to{
 	display:block;
 	font-size: 2em;
 	color: #000;
-  font-family: '微软雅黑';
 }
 .single-para p{
 	font-size:0.9em;
@@ -873,7 +851,6 @@ a.cart{
   line-height: 1.6em;
   text-align: center;
   text-decoration:none;
-  font-family: '微软雅黑';
 }
 a.cart:hover{
 	background: #000;
@@ -900,7 +877,6 @@ a.cart:hover{
 	text-decoration:none;
 	font-size:1em;
 	color:#006666;
-  font-family: '微软雅黑';
 }
 .star-on a:hover{
 	color:#000;
@@ -918,7 +894,6 @@ a.cart:hover{
 	color:#006666;
 	font-size:1.4em;
 	padding: 0 0 1em;
-  font-family: '微软雅黑';
 }
 .available ul li{
 	display:inline-block;
@@ -954,7 +929,6 @@ th, td {
 td{
 	color:#b2b2b2;
   font-size: 1em;
-  font-family: '微软雅黑';
 }
 a.at-in {
   float: left;
@@ -1007,7 +981,6 @@ a.to-buy{
   line-height: 1.6em;
   text-align: center;
   text-decoration: none;
-  font-family: '微软雅黑';
 }
 a.to-buy:hover{
   background: #000;

@@ -1,12 +1,12 @@
-<!--{% extends 'base.html' %}
+{% extends 'base.html' %}
 {% load staticfiles %}
-{% block content_block %}-->
+{% block content_block %}
 <div class="container">
 	<div class="register">
 		<h1>注册</h1>
 		  	  <form action="{% url 'register' %}" method="post">
-                 <!--{% csrf_token %}-->
-				 <div class="register-top-grid" style="text-align:center;">
+                 {% csrf_token %}
+				 <div class="col-md-6  register-top-grid">
 					<div class="mation">
 						<span>用户名</span>
 						{{ reg_form.username }}
@@ -16,7 +16,7 @@
 					</div>
 					 <div class="clearfix"> </div>
                  </div>
-                 <div class="register-bottom-grid" style="text-align:center;">
+                 <div class=" col-md-6 register-bottom-grid">
                     <div class="mation">
                         <span>密码</span>
                         {{ reg_form.password }}
@@ -25,7 +25,7 @@
                     </div>
                  </div>
                  <div class="clearfix"> </div>
-                  <div class="register-but" style="text-align:center;">
+                  <div class="register-but">
                        <input type="hidden" name="source_url" value="{{ request.META.HTTP_REFERER }}">
                       <input type="submit" value="submit">
                       <div class="clearfix"> </div>
@@ -33,4 +33,4 @@
               </form>
     </div>
 </div>
-<!--{% endblock %}-->
+{% endblock %}
